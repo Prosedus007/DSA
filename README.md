@@ -1,4 +1,4 @@
-# C Project Name
+# C
 
 A brief description of your C project goes here. You can mention the purpose, features, or any other important details.
 
