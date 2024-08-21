@@ -1,4 +1,15 @@
 #include<stdio.h>
+merge(){
+    
+}
+
+partition(){
+
+}
+
+merge_sort(){
+
+}
 
 int main(){
     int n;

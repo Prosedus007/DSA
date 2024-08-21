@@ -1,11 +1,12 @@
 #include<stdio.h>
-
+//swap function to swap the elements with the third variable
 void swap(int *arr,int i,int j){
     int temp = arr[i];
     arr[i]= arr[j];
     arr[j] = temp;
 }
 
+//Bubble sort algorithm
 int bubble_sort(int arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
@@ -22,7 +23,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
 
-    printf("Enter the ements in the array: ");
+    printf("Enter the elements in the array: ");
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
