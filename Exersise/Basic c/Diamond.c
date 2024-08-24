@@ -2,7 +2,8 @@
 
 int main() {
     int i, j, k;
-    int n ;  
+    int n ; 
+    printf("Enter the number:");
     scanf("%d",&n);
 
     for (i = 1; i <= n; i++) {
