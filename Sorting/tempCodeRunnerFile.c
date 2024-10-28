@@ -8,15 +8,14 @@ void swap(int *arr,int i,int j){
 
 //Bubble sort algorithm
 int bubble_sort(int arr[],int n){
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                swap(arr, j, j+1);
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(arr[j]>arr[j+1]){
+                swap(arr , j ,j+1);
             }
         }
-    
     }
-} 
+}
 
 int main(){
     int n;

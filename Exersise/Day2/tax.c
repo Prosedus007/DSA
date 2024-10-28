@@ -5,11 +5,9 @@ int main() {
     int m;
     float tax = 0.0;
 
-    printf("Enter Income: ");
-    scanf("%f", &n);
-    printf("Enter number of dependents: ");
-    scanf("%d", &m);
-    // printf(")");
+    printf("-->");
+    scanf("(%f,%d)",&n,&m);
+
 
     if (n <= 30000) {
         tax = 0.0; 

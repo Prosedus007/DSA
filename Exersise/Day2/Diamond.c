@@ -3,7 +3,7 @@
 int main() {
     int i, j, k;
     int n ; 
-    printf("Enter the number:");
+    printf("Enter the number of rows in the upper half: ");
     scanf("%d",&n);
 
     for (i = 1; i <= n; i++) {
